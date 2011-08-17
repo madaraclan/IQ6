@@ -1,0 +1,103 @@
+.button {
+    background:url("../Images/button.gif") repeat-x 0 0;
+    font-size:12px;
+}
+
+/** GRAY BUTTON **/
+.buttonGray {
+    border-bottom:1px solid #e5e5e5;
+    float:left;
+    padding: 0;
+    margin: 0;
+}
+.buttonGray input, .buttonGray input:focus, .buttonGray a, .buttonGray a:focus {
+    border:1px solid #999;
+    border-bottom:1px solid #888;
+    color:#333;
+    height:24px;
+    padding-left:6px;
+    padding-right:6px;
+    font-weight:bold;
+    cursor:pointer;
+    margin: 0;
+    padding-bottom: 2px;
+}
+.buttonGray a, .buttonGray a:focus {
+    display: inline-block;
+    height: 11px;
+    padding: 6px 6px 5px 6px;
+}
+.buttonGray a:hover { text-decoration: none; }
+.buttonGray input:active, .buttonGray a:active { background:#ddd; }
+
+/** BLUE BUTTON **/
+.buttonBlue {
+    border-bottom:1px solid #d4e6ee;
+    float:left;
+    padding: 0;
+    margin: 0;
+}
+
+.buttonBlue input, .buttonBlue input:focus, .buttonBlue a, .buttonBlue a:focus {
+    border:1px solid #0862af;
+    border-bottom:1px solid #055497;
+    color:#fff;
+    height:24px;
+    padding-left:6px;
+    padding-right:6px;
+    font-weight:bold;
+    cursor:pointer;
+    background-position: 0 -22px;
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+.buttonBlue a, .buttonBlue a:focus {
+    display: inline-block;
+    height: 11px;
+    padding: 6px 6px 5px 6px;
+}
+.buttonBlue a:hover { text-decoration: none; }
+.buttonBlue input:active, .buttonBlue a:active, .buttonBlue input[disabled=disabled] {
+    background:#197ec7;
+}
+
+/** ORANGE BUTTON **/
+.buttonOrange {
+    border-bottom:1px solid #fce0a4;
+    float:left;
+    padding: 0;
+    margin: 0;
+}
+
+.buttonOrange input, .buttonOrange input:focus, .buttonOrange a, .buttonOrange a:focus {
+    border:1px solid #b67a00;
+    border-bottom:1px solid #9d6a04;
+    color:#fff;
+    height:24px;
+    padding-left:6px;
+    padding-right:6px;
+    font-weight:700;
+    cursor:pointer;
+    background-position: 0 -44px;
+    margin: 0;
+    padding-bottom: 2px;
+    /*
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    */
+}
+.buttonOrange a, .buttonOrange a:focus {
+    display: inline-block;
+    height: 11px;
+    padding: 4px 6px 5px 6px;
+    color: #fff;
+}
+.buttonOrange a:hover { text-decoration: none; }
+.buttonOrange input:active, .buttonOrange a:active { background:#e6a114; }
+
+input.button[disabled=disabled] {
+    opacity: 0.5;
+    cursor: default;
+}

@@ -1,0 +1,293 @@
+@import url("Hack.css");
+@import url("Fonts.css");
+@import url("Template.css");
+@import url("Icon.css");
+@import url("Button.css");
+
+a {
+    color:#27aae1;
+    text-decoration:none;
+    cursor:pointer;
+}
+a:hover { text-decoration:underline; }
+
+.ContentTwoLayout {
+    padding:20px 0 0 0;
+    border-left:1px solid #999;
+    border-right:1px solid #999;
+    background:#fff url("../Images/bg_two_layout.jpg") repeat-y right;
+    clear:both;
+}
+
+.ContentTwoLayout .LeftColumn {
+    float:left;
+    width:712px;
+    clear:both;
+}
+
+.ContentTwoLayout .RightColumn {
+    float:left;
+    width:306px;
+}
+
+
+/**--- NEWS FEEDS ---**/
+#NewsFeeds {
+    margin:0 15px 0 15px;
+}
+
+h2.HeaderIcon {
+    margin:0;
+    padding:0;
+    color:#27aae1;
+    font-size:17px;
+    font-weight:normal;
+    clear:both;
+}
+
+h2.HeaderIcon span.Icon16 {
+    float:left;
+    margin-right:3px;
+    margin-top:1px;
+    margin-top:0\9;
+}
+
+.ShareBox {
+    margin-top:15px;
+}
+
+.ShareBox .ShareTypeBox {
+    border-top:1px solid #ccc;
+    padding:10px 0 0 0;
+    clear:both;
+}
+
+ul.ShareType {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+ul.ShareType li:first-child {
+    color:#808080;
+    margin-right:13px;
+    padding-top:2px;
+}
+
+ul.ShareType li {
+    float:left;
+    margin-right:10px;
+}
+
+ul.ShareType li a { text-decoration:none; }
+ul.ShareType li a span.Icon16 {
+    float:left;
+    margin-right:3px;
+}
+ul.ShareType li a span.Text {
+    color:#27aae1;
+    text-decoration:none;
+    float:left;
+    padding-top:2px;
+}
+
+ul.ShareType li a.Current span, ul.ShareType li a.Current:hover span.Text { text-decoration:none; color:#000; cursor:default; }
+ul.ShareType li a:hover span.Text { text-decoration:underline; }
+
+#BoxInpuContainer { margin-top:15px; }
+.ShareBox .BoxInput {
+    clear:both;
+    border:1px solid #ccc;
+    padding:0;
+}
+
+.ShareBox .BoxInput .BoxInputText {
+    padding:5px 3px 5px 3px;
+    margin:0;
+}
+
+.ShareBox .BoxInput input[type=text] {
+    color:#999;
+    width:100%;
+    border:none;
+    padding:0;
+    margin:0;
+}
+
+.ShareBox .BoxInput input[type=text].Active { color:#333; }
+
+.BoxShareButton { margin-top:5px; clear:both; }
+.BoxShareButton input[type=submit] { float:right; }
+.BoxShareButton #CountCharacter {
+    padding-top:7px;
+    float:left;
+}
+
+#BoxNewsFeeds {
+    margin-top:20px;
+}
+
+ul.BlokNewsList {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+ul.BlokNewsList li:first-child { margin-top:0; }
+
+ul.BlokNewsList li {
+    display:block;
+    margin-top:20px;
+}
+
+ul.BlokNewsList li span.DisplayPicture { float:left; }
+
+ul.BlokNewsList li p.DisplayInformation {
+    float:left;
+    width:605px;
+    margin-left:17px;
+}
+
+ul.BlokNewsList li p.DisplayInformation a.PeopleName {
+    font-size:12px;
+    color:#ff8c00;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+ul.BlokNewsList li p.DisplayInformation a.PeopleName:hover { text-decoration:underline; }
+
+ul.BlokNewsList li p.DisplayInformation span.ShareContent {
+    display:block;
+    margin-top:7px;
+    text-align:justify;
+    line-height:15px;
+}
+
+ul.BlokNewsList li p.DisplayInformation span.DetailInfoShareContent {
+    margin-top:15px;
+    display:block;
+}
+
+ul.BlokNewsList li p.DisplayInformation span.DetailInfoShareContent span.ShareTimeInformation {
+    color:#999;
+    font-size:11px;
+}
+
+ul.BlokNewsList li p.DisplayInformation span.DetailInfoShareContent span.Separator { margin:0 5px 0 5px; color:#999;}
+ul.BlokNewsList li p.DisplayInformation span.DetailInfoShareContent a.LinkInfo {
+    color:#27aae1;
+    font-size:11px;
+    text-decoration:none;
+    background:url("../Images/icon_like_comment.gif") no-repeat;
+}
+
+ul.BlokNewsList li p.DisplayInformation span.DetailInfoShareContent a.LinkInfo:hover { text-decoration:underline; }
+
+ul.BlokNewsList li p.DisplayInformation span.DetailInfoShareContent a.Like {
+    background-position:0 1px;
+    padding-left:15px;
+}
+
+ul.BlokNewsList li p.DisplayInformation span.DetailInfoShareContent a.Comment {
+    background-position:0 -11px;
+    padding-left:15px;
+}
+
+a.LinkMoreUpdates { float:left; font-size:11px; margin:30px 0 10px 77px;}
+
+/**--- MATERIALS ---**/
+#Materials {
+    margin:0 15px 30px 15px;
+}
+
+.SmallDescription {
+    font-size:11px;
+    margin-top:3px;
+    display:block;
+}
+
+.SimpleBreadCrumb { margin-top:6px; }
+.SimpleBreadCrumb span.Separator { font-size:13px; }
+.SimpleBreadCrumb span {
+    color:#f68b1f;
+    font-size:12px;
+}
+.Semester {
+    margin:20px 0 20px 0;
+}
+
+ul.TitleDescriptionList {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+ul.TitleDescriptionList li:first-child { margin-top:0; }
+ul.TitleDescriptionList li {
+    margin-top:20px;
+}
+ul.TitleDescriptionList li a.Title { color:#f68b1f; }
+ul.TitleDescriptionList li span.Description { font-size:11px; display:block; margin-top:2px; }
+
+#GradesBottom {
+    background:#eee;
+    border-top:1px solid #999;
+    padding:20px 15px 20px 15px;
+}
+
+.HeaderDescription {
+    margin-top:20px;
+}
+
+.HeaderDescription span, #GradesBottom .Description a { font-size:11px; }
+
+#GradesBottom .LeftSide {
+    width:275px;
+    float:left;
+}
+
+#GradesBottom .RightSide {
+    width: 365px;
+    margin-left:35px;
+    float:left;
+}
+
+#GradesBottom .LeftSide .GradeTable {
+    margin-top:20px;
+}
+
+#GradesBottom .LeftSide .GradeTable table td {
+    font-size:11px;
+    line-height:14px;
+}
+
+.BoxWidget:first-child {
+    margin-top:0;
+}
+
+.BoxWidget {
+    margin:50px 14px 0 14px;
+}
+
+.ListQuick {
+    margin:20px 0 0 0;
+    padding:0;
+    list-style:none;
+}
+.ListQuick li:first-child { margin-top:0; }
+.ListQuick li {
+    margin-top:20px;
+    display:block;
+    clear:both;
+}
+.ListQuick li span.Title { float:left; width:176px; }
+.ListQuick li span.Title a { color:#f68b1f; }
+.ListQuick li span.Room { float:left; margin-left:2px; width:58px;}
+.ListQuick li span.Time { float:right;}
+.ListQuick li span.Status { display:block; margin-top:5px; color:#27aae1; font-size:11px; }
+.ListQuick li span.Description { display:block; line-height:14px;text-align:justify; margin-top:2px; font-size:11px; }
+
+.ListFinance { margin-top:0; }
+.Orange { color:#f68b1f; }
+.Top20 { margin-top:15px; }

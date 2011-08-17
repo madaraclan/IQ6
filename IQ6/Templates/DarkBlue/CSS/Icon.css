@@ -1,0 +1,127 @@
+/**
+ * InTechPHP Framework
+ *
+ * Icons
+ *
+ * @author		Iqbal Maulana
+ * @copyright	Copyright (c) 2011, Intelligence Tech, Inc.
+ * @license
+ * @link		http://intelligencetech.com
+ */
+
+
+/**
+ * Icon 16x16 pixels
+ */
+.Icon16 {
+	width:16px;
+	height:16px;
+	display:block;
+	background:url(../Images/icon16.png) no-repeat 0 0;
+}
+
+.IconProfile16 { background-position:0 0; }
+.IconAbout16 { background-position:-17px 0; }
+.IconDevelopers16 { background-position:-33px 0; }
+.IconHelp16 { background-position:-49px 0; }
+
+.IconHome16 { background-position:0 -17px;}
+.IconClass16 { background-position:-16px -17px;}
+.IconInformation16 { background-position:-32px -17px;}
+.IconFriends16 { background-position:-48px -17px;}
+
+.IconNewsFeeds16 { background-position:0 -34px;}
+.IconStatus16 { background-position:-16px -34px; }
+.IconLink16 { background-position:-32px -34px; }
+.IconQuestion16 { background-position:-48px -34px; }
+
+.IconMaterials16 { background-position:0 -50px; }
+.IconGrades16 { background-position:-17px -50px; }
+.IconSchedule16 { background-position:-32px -50px; }
+.IconFinance16 { background-position:-48px -50px; }
+
+.IconNotification16 { background-position:0 -67px; }
+.IconBulletin16 { background-position:-17px -67px; }
+.iconBasicInformation16 { background-position:-32px -68px; }
+.iconWork16 { background-position:-48px -70px; }
+
+.iconEntertainment16 { background-position:0 -85px; }
+.iconActivities16 { background-position:-16px -85px; }
+.iconContact16 { background-position:-32px -85px; }
+.iconMap16 { background-position: -48px -85px; }
+
+.iconFacebook16 { background-position: 0 -102px; }
+.iconTwitter16 { background-position: -16px -102px; }
+.iconDownload16 { background-position: -32px -102px; }
+.iconUpload16 { background-position: -48px -102px; }
+
+
+/**
+ * Icon 13x13 pixels
+ */
+.Icon13 {
+	width:13px;
+	height:13px;
+	display:block;
+	background:url(../Images/icon_13.gif) no-repeat 0 0;
+}
+
+.IconNewsFeeds13 { background-position:0 0; }
+.IconEvents13 { background-position:0 -14px; }
+.IconMessage13 { background-position:0 -27px; }
+.IconNotification13 { background-position:0 -42px; }
+
+.iconMute13 { background-position: 0 -56px; }
+.iconDiary13 { background-position: 0 -70px; }
+.iconClose13 { background-position: 0 -84px; }
+
+
+/**
+ * Moods
+ */
+.iconMoods {
+    background: url("../Images/smile.gif") no-repeat 0 0;
+}
+
+.iconMoodHappy { background-position: 0 0; }
+.iconMoodSad { background-position: 0 -16px; }
+.iconMoodAngry { background-position: 0 -32px; }
+.iconMoodLaughing { background-position: 0 -48px; }
+.iconMoodCrying { background-position: 0 -64px; }
+.iconMoodSick { background-position: 0 -80px; }
+.iconMoodConfuse { background-position: 0 -96px; }
+.iconMoodCool { background-position: 0 -112px; }
+
+
+
+/**
+ * Icon Like Comment
+ */
+.iconLikeComment {
+    background: url("../Images/icon_like_comment.gif") no-repeat;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-right: 5px;
+}
+.iconLike { background-position: 0 0; }
+
+/**
+ * Icon MessageBox
+ */
+.iconMessageBox {
+    background: url("../Images/message_icon.png") no-repeat;
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
+.iconInformation {
+    background-position:  0 0px;
+    margin: 18px 0 0 20px;
+}
+
+.iconConfirmation {
+    background-position:  0 -24px;
+    margin: 18px 0 0 20px;
+}

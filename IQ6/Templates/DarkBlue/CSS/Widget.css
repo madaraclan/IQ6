@@ -1,0 +1,46 @@
+.studentPerfomance {
+    padding: 10px 0 0 0;
+}
+
+.studentPerfomance .label {
+    padding-top: 5px;
+}
+
+.studentPerfomance .label a {
+    font-weight: 600;
+}
+
+.listScheduleWidget {
+    margin: 10px 0 0 0;
+}
+
+.listScheduleWidget li {
+    display: block;
+}
+
+.listScheduleWidget li .label,
+.listScheduleWidget li .time {
+    padding: 5px 2px 5px 2px;
+}
+
+.listScheduleWidget li.even {
+    background: #f2f6f8;
+}
+
+.listScheduleWidget li .label {
+    float: left;
+}
+
+.listScheduleWidget li .label a {
+    font-weight: 600;
+}
+
+.listScheduleWidget li.even .label {
+    background: #f2f6f8;
+}
+
+.listScheduleWidget li .time {
+    float: right;
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+}

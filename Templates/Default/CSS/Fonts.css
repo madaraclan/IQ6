@@ -1,0 +1,16 @@
+/**
+ * InTechPHP Framework
+ *
+ * Custom Web Fonts
+ *
+ * @author		Iqbal Maulana
+ * @copyright	Copyright (c) 2011, Intelligence Tech, Inc.
+ * @license
+ * @link		http://intelligencetech.com
+ */
+
+
+/**
+ * FertigoPro-Regular
+ */
+@font-face {font-family: 'FertigoPro-Regular';src: url('../Fonts/eot/style_158307.eot');src: url('../Fonts/eot/style_158307.eot?#iefix') format('embedded-opentype'),url('../Fonts/woff/style_158307.woff') format('woff'),url('../Fonts/ttf/style_158307.ttf') format('truetype'),url('../Fonts/svg/style_158307.svg#FertigoPro-Regular') format('svg');}

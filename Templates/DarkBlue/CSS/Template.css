@@ -1,0 +1,205 @@
+/**
+ * InTechPHP Framework
+ *
+ * Template Style
+ *
+ * @author		Iqbal Maulana
+ * @copyright	Copyright (c) 2011, Intelligence Tech, Inc.
+ * @license
+ * @link		http://intelligencetech.com
+ */
+
+
+body {
+	margin:0;
+	background:#fff;
+}
+
+div, td, li, a, span, input, select, textarea {
+	/*font-family: FertigoPro-Regular;*/
+    font-family: 'Open Sans', Arial;
+	font-size:12px;
+    font-weight: 400;
+    color: #333;
+}
+
+.BgX {
+	background:url(../Images/bg_x.png) repeat-x 0 0;
+}
+
+.bgXLogin {
+    background:url(../Images/bg_x_login.jpg) repeat-x 0 0;
+}
+
+#TopWrapper {
+    position:fixed;
+    width:100%;
+    z-index: 11;
+}
+
+.TopContentWrapper {
+	clear:both;
+    padding: 5px 5px 0 5px;
+}
+
+#SubNavigation {
+    padding-top: 44px;
+    width: 100%;
+    background: #f1f1f1;
+    border-bottom: 1px solid #d2d2d2;
+    z-index: 10;
+}
+
+#SubNavigation .ContentWrapper {
+    height: 35px;
+}
+
+#Middle {
+    padding-top:0px;
+}
+
+.ContentWrapper {
+	width:1020px;
+	margin:auto;
+	clear:both;
+}
+
+#Top {
+	background-position:0 0;
+	height:47px;
+	clear:both;
+}
+
+#Top #TopNavigation {
+}
+
+#Top #Logo { width:113px; height:38px; float:left; }
+#Top #Logo a img { border:none; }
+
+#TopNavigation .Navigation {
+	float:right;
+}
+
+#TopNavigation .Navigation ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+    border-left:1px solid #134159;
+    float:left;
+}
+
+#TopNavigation .Navigation ul li {
+	float:left;
+    border-right:1px solid #134159;
+    border-left:1px solid #8fd4f5;
+}
+
+#TopNavigation .Navigation ul li.Last { border-right:none; }
+
+#TopNavigation .Navigation ul li a {
+	border:none;
+	display:block;
+	text-decoration:none;
+	height:26px;
+	padding:12px 11px 0 11px;
+    font-weight: 600;
+}
+
+#SubNavigation .QuickSearchContainer {
+    float: right;
+}
+
+#SubNavigation .QuickSearchContainer span.QuickSearch {
+    padding:6px 0 0 11px;
+    display:block;
+}
+
+#SubNavigation .QuickSearchContainer span.QuickSearch input[type=text] {
+    margin:0;
+    border-top:1px solid #c0c0c0;
+    border-left:1px solid #c0c0c0;
+    border-bottom:1px solid #d9d9d9;
+    border-right:1px solid #d9d9d9;
+    padding:1px;
+    color:#999;
+    width:320px;
+    padding: 2px 7px 2px 7px;
+}
+
+#TopNavigation .Navigation ul li a:hover, #TopNavigation .Navigation ul li a.Current {
+   background:url("../Images/bgmenu_hover.jpg") repeat-x;
+}
+
+#TopNavigation .Navigation ul li a span.Icon16 {
+	float:left;
+}
+
+#TopNavigation .Navigation ul li a span.Label {
+	font-size:12px;
+	color:#fff;
+    float:left;
+    padding:2px 0 0 7px;
+    font-weight: 600;
+}
+
+
+#BottomWrapper {
+	clear:both;
+    width:1020px;
+    margin:auto;
+    margin-bottom:20px;
+}
+
+#BottomWrapper .ContentBottomWrapper {
+	clear:both;
+    height:31px;
+    border-top:2px solid #2ca0da;
+}
+
+#BottomWrapper #Footer {
+    border-top: 1px solid #e0e0e0;
+    height:20px;
+	padding:10px 0 0 0;
+}
+
+#BottomWrapper #Footer #CopyrightInfo div {
+	font-size:11px;
+    padding-top: 1px;
+}
+
+#BottomWrapper #Footer #CopyrightInfo div:first-child {
+	float:left;
+}
+
+#BottomWrapper #Footer #CopyrightInfo ul, #BottomWrapper #Footer #Language ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#BottomWrapper #Footer #CopyrightInfo ul li, #BottomWrapper #Footer #Language ul li {
+	float:left;
+	margin-left:10px;
+}
+
+#BottomWrapper #Footer #CopyrightInfo ul li a, #BottomWrapper #Footer #Language ul li a {
+	font-size:11px;
+	text-decoration:none;
+}
+
+#BottomWrapper #Footer #CopyrightInfo ul li a:hover, #BottomWrapper #Footer #Language ul li a:hover { text-decoration:underline; }
+
+#BottomWrapper #Footer #Language {
+	float:right;
+}
+
+#BottomWrapper #Footer #Language ul li a.Current, #BottomWrapper #Footer #Language ul li a.Current:hover {
+color:#333; text-decoration:none; cursor:default; }
+
+.ClearFix { clear:both; }
+/**--IE Hack--**/
+
+input[type=password] {
+	*letter-spacing:0.2em;
+	letter-spacing:0.3em\9
+}

@@ -1,0 +1,13 @@
+.ButtonBlack {
+	border:1px solid #000;
+	background-position:0 -101px;
+	color:#fff;
+	padding:2px 10px;
+	cursor:pointer;
+	line-height:19px;
+	margin:0;
+}
+
+.ButtonBlack:active {
+	background:#333;
+}

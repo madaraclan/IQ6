@@ -1,0 +1,129 @@
+@import url("Hack.css");
+@import url("Fonts.css");
+@import url("Template.css");
+@import url("Icon.css");
+@import url("Button.css");
+
+#Middle {
+	/*
+	border-left:1px solid #999;
+	border-right:1px solid #999;
+	*/
+}
+
+#Middle #LoginBox {
+	width:951px;
+	height:365px;
+	background:#27aae2;
+	margin:51px auto 51px auto;
+	padding:5px;
+}
+
+#LoginBox #LoginBanner {
+	float:left;
+	width:591px;
+	height:365px;
+}
+
+#LoginBox #LoginForm {
+	float:left;
+	margin:30px 39px 0 39px;
+	width:281px;
+	height:315px;
+}
+
+#LoginBox #LoginForm h1 {
+	font-size:18px;
+	font-weight:normal;
+	color:#333;
+	margin:0;
+	padding:0;
+	line-height:normal;
+}
+
+#LoginBox #LoginForm .Description {
+	font-size:14px;
+	color:#fff;
+	line-height:normal;
+}
+
+#LoginBox #LoginForm #AccountBox {
+	padding:12px 10px;
+	background:#333;
+	border:1px solid #000;
+	margin:13px 0 7px 0;
+}
+
+#LoginForm #AccountBox p:first-child {
+	margin-top:0;
+}
+
+#LoginForm #AccountBox p {
+	margin:14px 0 0 0;
+	clear:both;
+}
+#LoginForm #AccountBox p label {
+	float:left;
+	width:78px;
+	color:#fff;
+	font-size:14px;
+	text-align:right;
+	padding-top:3px;
+	cursor:pointer;
+}
+
+#LoginForm #AccountBox p input[type=text], #LoginForm #AccountBox p input[type=password] {
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	border-bottom:1px solid #666;
+	border-right:1px solid #666;
+	margin-left:11px;
+	width:147px;
+	padding:1px 1px 1px 18px;
+	outline:none;
+	
+	/**--IE Hack--**/
+	*padding-top:2px;
+	padding-top:2px\9;
+	padding-bottom:0\9
+}
+
+#LoginForm #AccountBox p .IconLoginAccount {
+	background:#fff url(../Images/icon_login_field.jpg) no-repeat 0 0;
+	width:14px;
+	height:18px;
+}
+
+#LoginForm #AccountBox p .IconUserID {
+	background-position:2px 1px;
+}
+
+#LoginForm #AccountBox p .IconPassword {
+	background-position:2px -18px;
+}
+
+#KeepLogedIn {
+	float:left;
+	margin:5px 0 0 85px;
+}
+
+#KeepLogedIn input[type=checkbox] { float:left; }
+
+#KeepLogedIn label {
+	font-size:12px;
+	color:#fff;
+	float:left;
+	margin:4px 0 0 2px;
+	cursor:pointer;
+}
+
+.ButtonBlack { float:left; }
+
+#ForgotPassword {
+	float:right;
+	margin:7px 0 0 8px;
+}
+
+#ForgotPassword a { color:#fff; text-decoration:none; }
+#ForgotPassword a:hover { text-decoration:underline; }
+#ConnectedImage { padding-top:10px; text-align:center; clear:both; }

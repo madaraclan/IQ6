@@ -1,0 +1,271 @@
+@import url("Hack.css");
+@import url("Fonts.css");
+@import url("Template.css");
+@import url("Icon.css");
+@import url("Button.css");
+
+body {
+    background:#27a6df url("../Images/login_pattern.jpg");
+    margin: 0;
+    overflow: hidden;
+}
+
+input[type=text], input[type=password], select {
+    border: 1px solid #01548b;
+    border-bottom:1px solid #007fc2;
+    border-right:1px solid #007fc2;
+    padding: 3px 5px 2px 5px;
+    margin: 0;
+}
+
+#TopLogin {
+    background-position:0 0;
+	height:92px;
+	clear:both;
+}
+
+#TopLogin #FormLogin {
+    float: right;
+    margin: 38px 0 0 0;
+}
+
+#FormLogin .inputField div {
+    float: left;
+    margin-left: 5px;
+}
+
+#FormLogin .inputField div input {
+    color: #c6c6c6;
+}
+
+#FormLogin .inputField div input.active {
+    color: #333;
+}
+
+#FormLogin .inputField div input#username {
+    background:#fff url("../Images/login_account.png") 4px 4px no-repeat;
+    padding-left: 20px;
+}
+
+#FormLogin .inputField div input#password,
+#FormLogin .inputField div input#passwordPlaceHolder {
+    background:#fff url("../Images/login_password.png") 4px 4px no-repeat;
+    padding-left: 20px;
+}
+
+#FormLogin .inputField div .keepLogedIn {
+    color: #fff;
+    float: left;
+    font-size: 11px;
+    margin: 4px 0 0 2px;
+    cursor: pointer;
+}
+
+#FormLogin .inputField div .forgot {
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+#FormLogin .inputField div .forgot:hover { text-decoration: underline; }
+
+#TopLogin #Logo {
+    float: left;
+    margin-top: 26px;
+}
+
+#Middle {
+	background: url("../Images/map.png") no-repeat center top;
+    min-height: 500px;
+}
+
+#people {
+    background: url("../Images/people.png") no-repeat center 120px;
+}
+
+#BottomLogin {
+    background-position:0 -92px;
+	height:65px;
+	clear:both;
+}
+
+#BottomLogin .ContentBottomWrapper {
+	clear:both;
+}
+
+#BottomLogin #Footer {
+	padding:15px 15px 0 15px;
+    font-size:11px;
+}
+
+#BottomLogin #Footer #CopyrightInfo {
+	color:#fff;
+	font-size:11px;
+}
+
+#BottomLogin #Footer #CopyrightInfo div:first-child {
+	float:left;
+    color:#fff;
+    font-size:11px;
+}
+
+#BottomLogin #Footer #CopyrightInfo ul, #BottomLogin #Footer #Language ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#BottomLogin #Footer #CopyrightInfo ul li, #BottomLogin #Footer #Language ul li {
+	float:left;
+	margin-left:10px;
+}
+
+#BottomLogin #Footer #CopyrightInfo ul li a, #BottomLogin #Footer #Language ul li a {
+	color:#fff;
+	font-size:11px;
+	text-decoration:none;
+}
+
+#BottomLogin #Footer #CopyrightInfo ul li a:hover, #BottomLogin #Footer #Language ul li a:hover { text-decoration:underline; }
+
+#BottomLogin #Footer #Language {
+	float:right;
+}
+
+#BottomLogin #Footer #Language ul li a.Current, #BottomLogin #Footer #Language ul li a.Current:hover {
+color:#333; text-decoration:none; cursor:default; }
+
+#Middle #LoginBox {
+	width:951px;
+	height:365px;
+	background:#27aae2;
+	margin:51px auto 51px auto;
+	padding:5px;
+}
+
+#LoginBox #LoginBanner {
+	float:left;
+	width:591px;
+	height:365px;
+}
+
+#LoginBox #LoginForm {
+	float:left;
+	margin:30px 39px 0 39px;
+	width:281px;
+	height:315px;
+}
+
+#LoginBox #LoginForm h1 {
+	font-size:18px;
+	font-weight:normal;
+	color:#333;
+	margin:0;
+	padding:0;
+	line-height:normal;
+}
+
+#LoginBox #LoginForm .Description {
+	font-size:14px;
+	color:#fff;
+	line-height:normal;
+}
+
+#LoginBox #LoginForm #AccountBox {
+	padding:12px 10px;
+	background:#333;
+	border:1px solid #000;
+	margin:13px 0 7px 0;
+}
+
+#LoginForm #AccountBox p:first-child {
+	margin-top:0;
+}
+
+#LoginForm #AccountBox p {
+	margin:14px 0 0 0;
+	clear:both;
+}
+#LoginForm #AccountBox p label {
+	float:left;
+	width:78px;
+	color:#fff;
+	font-size:14px;
+	text-align:right;
+	padding-top:3px;
+	cursor:pointer;
+}
+
+#LoginForm #AccountBox p input[type=text], #LoginForm #AccountBox p input[type=password] {
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	border-bottom:1px solid #666;
+	border-right:1px solid #666;
+	margin-left:11px;
+	width:147px;
+	padding:1px 1px 1px 18px;
+	outline:none;
+	
+	/**--IE Hack--**/
+	*padding-top:2px;
+	padding-top:2px\9;
+	padding-bottom:0\9
+}
+
+#LoginForm #AccountBox p .IconLoginAccount {
+	background:#fff url(../Images/icon_login_field.jpg) no-repeat 0 0;
+	width:14px;
+	height:18px;
+}
+
+#LoginForm #AccountBox p .IconUserID {
+	background-position:2px 1px;
+}
+
+#LoginForm #AccountBox p .IconPassword {
+	background-position:2px -18px;
+}
+
+#KeepLogedIn {
+	float:left;
+	margin:5px 0 0 85px;
+}
+
+#KeepLogedIn input[type=checkbox] { float:left; }
+
+#KeepLogedIn label {
+	font-size:12px;
+	color:#fff;
+	float:left;
+	margin:4px 0 0 2px;
+	cursor:pointer;
+}
+
+.ButtonBlack { float:left; }
+
+#ForgotPassword {
+	float:right;
+	margin:7px 0 0 8px;
+}
+
+#ForgotPassword a { color:#fff; text-decoration:none; }
+#ForgotPassword a:hover { text-decoration:underline; }
+#ConnectedImage { padding-top:10px; text-align:center; clear:both; }
+
+.doMore {
+    width: 444px;
+    height: 42px;
+    float: left;
+    text-decoration: none;
+    margin: 220px 0 0 75px;
+    background: url("../Images/do_more.png") no-repeat;
+}
+
+.doMoreDesc {
+    width: 510px;
+    height: 89px;
+    float: left;
+    text-decoration: none;
+    margin: 5px 0 0 75px;
+    background: url("../Images/desc.png") no-repeat;
+}

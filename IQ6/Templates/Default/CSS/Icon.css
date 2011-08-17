@@ -1,0 +1,41 @@
+/**
+ * InTechPHP Framework
+ *
+ * Icons
+ *
+ * @author		Iqbal Maulana
+ * @copyright	Copyright (c) 2011, Intelligence Tech, Inc.
+ * @license
+ * @link		http://intelligencetech.com
+ */
+
+
+/**
+ * Icon 16x16 pixels
+ */
+.Icon16 {
+	width:16px;
+	height:16px;
+	display:block;
+	background:url(../Images/icon16.png) no-repeat 0 0;
+}
+
+.IconLogin16 { background-position:0 0; }
+.IconAbout16 { background-position:-17px 0; }
+.IconDevelopers16 { background-position:-33px 0; }
+.IconHelp16 { background-position:-49px 0; }
+
+.IconHome16 { background-position:0 -17px;}
+.IconClass16 { background-position:-16px -17px;}
+.IconInformation16 { background-position:-32px -17px;}
+.IconAccount16 { background-position:-48px -17px;}
+
+.IconNewsFeeds16 { background-position:0 -34px;}
+.IconStatus16 { background-position:-16px -34px; }
+.IconLink16 { background-position:-32px -34px; }
+.IconQuestion16 { background-position:-48px -34px; }
+
+.IconMaterials16 { background-position:0 -50px; }
+.IconGrades16 { background-position:-17px -50px; }
+.IconSchedule16 { background-position:-32px -50px; }
+.IconFinance16 { background-position:-48px -50px; }
